@@ -1,0 +1,38 @@
+<!DOCTYPE html> <!--HTML5-->
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Annie McMahon" />
+  <meta name="description" content="website/project description" />
+  <link href="styles/style.css" type="text/css" rel="stylesheet">
+  <script src="script.js"></script>
+  <title>Magic Eight Ball</title>
+</head>
+
+<body>
+  <div id="app-box">
+    <header>
+      <h1>Magic Eight Ball</h1>
+    </header>
+
+    <main>
+      <form>
+        <input type="text" name="user-question" id="user-question" maxlength="100"
+          placeholder="Type an existential question you need an urgent answer for">
+        <br /><br />
+        <button type="button" onclick="magicEight()">Shake</button>
+        <button type="button" onclick="resetEightBall()">Reset</button>
+      </form>
+
+      <div id="magic-ball">
+        <div id="magic-ball-message">
+          <p id="secret-message"></p>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</body>
+
+</html>
