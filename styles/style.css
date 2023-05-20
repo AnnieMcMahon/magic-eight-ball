@@ -44,11 +44,12 @@ input {
   width: 400px;
 }
 
-form,
 input,
 label,
 button,
-#secret-message {
+#secret-message,
+option,
+select {
   font-size: 1rem;
 }
 
