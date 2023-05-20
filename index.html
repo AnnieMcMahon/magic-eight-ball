@@ -17,14 +17,16 @@
     </header>
 
     <main>
-      <form>
+      <select id="answer-style" name="answer-style" onchange="selectStyle()">
+        <option value="classic">Classic</option>
+        <option value="alternative">Alternative</option>
+      </select>
+      <br>
         <input type="text" name="user-question" id="user-question" maxlength="100"
           placeholder="Type your existential question">
         <br /><br />
         <button type="button" onclick="magicEight()">Shake</button>
         <button type="button" onclick="resetEightBall()">Reset</button>
-      </form>
-
       <div id="magic-ball">
         <div id="magic-ball-message">
           <p id="secret-message"></p>
