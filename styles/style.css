@@ -55,3 +55,24 @@ button {
   border-radius: 10px;
   color: white;
 }
+
+@media only screen and (max-width: 480px) {
+  #app-box {
+    width: 100%;
+    margin: 0;
+  }
+
+  #magic-ball {
+  width: 300px;
+  height: 300px;
+  }
+  #magic-ball-message {
+    padding-top: 20%;
+    width: 175px;
+    height: 175px;
+  }
+  #magic-ball-message p {
+    line-height: 175px;
+  }
+}
+
